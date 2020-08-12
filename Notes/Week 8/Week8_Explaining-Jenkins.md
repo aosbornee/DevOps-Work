@@ -12,7 +12,7 @@ altered immediately
 - As default Jenkins comes with limited features however it has over 1000 plugins, version controls such as git as well
 as integration tools like Maven must be installed to use
 
-![Here](images/jenkins-integration-life-cycle.png)
+![Here](../images/jenkins-integration-life-cycle.png)
 
 
 ## Why use Jenkins?
@@ -20,4 +20,4 @@ as integration tools like Maven must be installed to use
 - Automated testing and building means more time can be spent on improving the software quality
 - Automated processes also mean companies can be more reactive to customer feedback, increase customer satisfaction
 
-## 
+##
