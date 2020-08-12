@@ -12,12 +12,7 @@ altered immediately
 - As default Jenkins comes with limited features however it has over 1000 plugins, version controls such as git as well
 as integration tools like Maven must be installed to use
 
-<<<<<<< HEAD
-
-![Here](Images/jenkins-integration-life-cycle.png)
-=======
-![]Images/jenkins-integration-life-cycle.png)
->>>>>>> ea74c74da22727c1dbf2aca7739fcf1f4bdf811b
+![Here](images/jenkins-integration-life-cycle.png)
 
 
 ## Why use Jenkins?
