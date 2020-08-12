@@ -1,12 +1,12 @@
 ## Sparta Global Training
 ##### `Name:` Andrew Osborne :office:
 ##### `Position:` Trainee Devops Engineer :computer:
-##### `Languages:` Python, SQL, HTML and CSS 
-#### `Technology Tools` Virtual Machines, Vagrant, Flask, Node JS, 
+##### `Languages:` Python, SQL, HTML and CSS
+#### `Technology Tools` Virtual Machines, Vagrant, Flask, Node JS,
 ##### `E-mail :` AOsborne@spartaglobal.com :email:
 ___
 
-## **Useful Links** 
+## **Useful Links**
 
 1. **Find Me on LinkedIn** [HERE](https://www.linkedin.com/in/andrew-osborne-52a46917b)
 2. **Find My Blog Posts** [HERE](https://medium.com/@aosborne99/my-first-month-learning-to-code-476c5dc56871)
