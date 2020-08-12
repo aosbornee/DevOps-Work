@@ -5,7 +5,7 @@
 
 - A specialized computer that allows you to access your private subnet database instance
 
-![](Bastion-Server.png)
+![](/images/Bastion-Server.png)
 
 - Our bastion server resides in our public subnet
 
