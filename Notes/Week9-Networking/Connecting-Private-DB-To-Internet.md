@@ -17,33 +17,42 @@
 ![](/images/Network-ACL-Allow-ALL.png)
 
 
-### Checking Route Table Access
+### Checking Private Route Table Access
 
-- In addition to the Network ACL we must also allow internet traffic from
+
+- In addition to this we want to allow our Private route table to accept all traffic coming from the internet
+- We also want to add the target as our IGW as this is where the internet is coming from
 
 ![](/images/Private-Route-Table.png)
 
 
 
 
-### Running Our Database Pages On Our App instance
+### Steps
 
-- When we run export DB_HOSTS we would add in the IP of our DB instance in - We would then run this command in our app instance and our app instance would go into our DB instance to grab the information from our database
+- When we run our App, the instance should check the DB_HOSTS variable and go
+to this address to receive the data necessary to run the posts page
 
-- This means we will need to allow our public subnet to enter our private subnet on port 27017
 
-We will need to do the following
+### We will need to do the following:
 
-- First download mongod and other dependencies on the db instance
+- Allow our public subnet to enter our private subnet on port 27017 (firewall settings)
+
+- Download mongod and other dependencies on the db instance
 
 - SCP our app folder into our App instance
 
 - provision our app instance
 
-export DB_hosts with IP-OF-DB-Instance
+- export DB_hosts with IP-OF-DB-Instance
+
+- Run our APP instance
+
+- Enter our APP instance IP on our browser
 
 
-### Entering Our Bastion Server and then our App instance
+
+### Entering Our Bastion Server and then our DB instance
 
 - As said previously, the only way we can ssh into our DB instance is through our bastion server
 - To be able to do this we must secure copy our ssh key from our local PC to our bastion in order for us to then be able to enter the DB
@@ -108,6 +117,9 @@ Now that both instances have been provisioned and are running we can now put our
 
 ### Errors Faced
 
+- Initially my DB was not downloading Mongod, the installation was staying on 0%
+- This was overcome by allowing all internet access to my private route table as this is where my private subnet receives internet from
+
 - When we ran the provisions we get an error saying
 'Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?''
 
@@ -121,4 +133,4 @@ sudo dpkg --configure -a
 unable to resolve host ip xx-xx-xx-xx
 ```
 
-- To solve this we need to enter our
+- To solve this we need to enter our hosts on etc fold

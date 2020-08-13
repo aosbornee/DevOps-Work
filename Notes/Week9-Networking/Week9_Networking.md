@@ -21,12 +21,12 @@ Two very common types of networks include:
 
 
 ## What is an IP?
-- Stands for internet Protocol 
+- Stands for internet Protocol
 
 
 ## IP Addresses
 
-- 
+-
 
 
 ## IPv4 vs IPv6
@@ -61,7 +61,7 @@ Two very common types of networks include:
 ### Relation Between VPCs And Networks
 
 - We create subnets within our VPC, they give different access rules and place resources in different containers
-- E.g You would not want your database with contains secret information to be put in a public subnet where there is 
+- E.g You would not want your database with contains secret information to be put in a public subnet where there is
 network traffic. Instead we would want to place it in a private subnet
 - Creating subnets allows you to create a logical network division between the different resources you have
 
@@ -79,7 +79,7 @@ of the internet
 - A virtual private network uses encryption to create a private network over the top of your current public network,
 this causes the traffic to be scrambled and thus is not easily visible to anyone.
 
-![](images/VPN-diagram.png)
+![](/images/VPN-diagram.png)
 
 - As we can see above, the request sent from our internet provider has been sent to multiple other servers before it reaches
 the desired internet location and thus it is hard to figure out the original location of the request
@@ -105,7 +105,7 @@ an AWS region
 - An optional virtual router that you can add to your VPC to enable direct connectivity to the internet, allowing communication
 between your VPC and the outside world.
 
-- For an EC2 instance to talk to the outside world, the instance must be located on a public subnet that has a route table 
+- For an EC2 instance to talk to the outside world, the instance must be located on a public subnet that has a route table
 rule that specifies the IGW as the target
 
 - Internet can then travel through the IGW into the VPC and then into the route table, from here it can travel to the public
@@ -140,4 +140,4 @@ the first layer of security and thus would not reach our instance**
 - A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet
 or gateway is directed.
 
-- 
+- Route tables connect our Subnets to our internet gateway
