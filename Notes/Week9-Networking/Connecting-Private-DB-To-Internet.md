@@ -43,6 +43,37 @@ We will need to do the following
 export DB_hosts with IP-OF-DB-Instance
 
 
+### Entering Our Bastion Server and then our App instance
+
+- As said previously, the only way we can ssh into our DB instance is through our bastion server
+- To be able to do this we must secure copy our ssh key from our local PC to our bastion in order for us to then be able to enter the DB
+- Once in the DB we can setup the mongod dependencies
+
+We must first locate to our SSH key that allows us to enter our instance, to do this we will run the following two commands:
+
+```
+scp -i ~/.ssh/DevOpsStudents.pem DevOpsStudents.pem ubuntu@54.170.220.240:/home/ubuntu/.ssh/
+ssh -i ~/.ssh/DevOpsStudents.pem ubuntu@54.170.220.240
+```
+
+- Now when we SSH into our bastion, and locate our .ssh folder, our key should be present there
+
+![](/images/ssh-key-and-folder-in-bastion.png)
+
+- This means from here we can run the following command and it should allow us to enter our DB instance, using the DB private IP
+
+```
+sudo ssh -i ~/.ssh/DevOpsStudents.pem ubuntu@124.11.2.59
+```
+
+
+
+### Persistent DB instance database
+
+- If we SSH into our DB instance using our private IP address, all the information stays persistent because our Private IP remains the same
+
+
+
 ### Provisioning And Running Our App Instance
 
 - When we stop our instances, we will lose the day within them, to overcome this we want to create provision files which mean when we run our files the correct dependencies will be automatically installed
@@ -65,7 +96,7 @@ ssh -i ~/.ssh/DevOpsStudents.pem ubuntu@3.249.218.23 -i $ ./provision.sh
 - Create A reverse Proxy to port 80
 - download Nodejs and NPM
 - Download PM2
-- Add an ENV variable to the bashrc file, that directs our app instance to the db to retrieve the dara
+- Add an ENV variable to the bashrc file, that directs our app instance to the db to retrieve the data
 
 
 Now that both instances have been provisioned and are running we can now put our app IP-Address into the browser and would hope to see our app listed as well as posts working
@@ -75,10 +106,17 @@ Now that both instances have been provisioned and are running we can now put our
 
 ### Errors Faced
 
-- When I ran the provisions I would get an error saying
+- When we ran the provisions we get an error saying
 'Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?''
 
 - This was overcome by running:
 ```
 sudo dpkg --configure -a
 ```
+
+- Once inside the DB instance, when we tried to run a provision.sh file we came across an error saying
+```
+unable to resolve host ip xx-xx-xx-xx
+```
+
+- To solve this we need to enter our
