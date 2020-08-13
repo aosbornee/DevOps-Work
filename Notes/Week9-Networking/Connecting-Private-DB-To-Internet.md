@@ -99,6 +99,8 @@ ssh -i ~/.ssh/DevOpsStudents.pem ubuntu@3.249.218.23 -i $ ./provision.sh
 - Add an ENV variable to the bashrc file, that directs our app instance to the db to retrieve the data
 
 
+## Finished Project!
+
 Now that both instances have been provisioned and are running we can now put our app IP-Address into the browser and would hope to see our app listed as well as posts working
 
 
