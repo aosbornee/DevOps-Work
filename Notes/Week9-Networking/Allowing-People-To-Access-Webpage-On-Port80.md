@@ -6,3 +6,10 @@
 ![](/imagesAdding-Port80-To-Everyone.png)
 
 - Now anyone should be able to enter through port 80
+
+
+Running the following command will tell us what ports are open for the VM we
+are within
+```
+netstat -antp
+```
