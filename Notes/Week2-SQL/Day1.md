@@ -7,7 +7,7 @@ An organised repository of data in order to efficiently retrieve data
 Terminology
 
 Column - Database tables are composed of individual columns corresponding to the attributes of the object.
-Row - A row consists of one set attributes corresponding ti ine instance of the table
+Row - A row consists of one set attributes corresponding time instance of the table
 Table - A format of rows and columns that define an entity.
 Entity - This is anything that you want to model in a table.
 
@@ -41,7 +41,7 @@ Entity - This is anything that you want to model in a table.
        one NHSID.
 
 **One-To-Many Relationship**
-- 
+-
 
 
 **Many-To-Many Relationship**

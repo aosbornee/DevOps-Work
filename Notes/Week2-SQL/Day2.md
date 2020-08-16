@@ -72,7 +72,7 @@ Data must be at a fixed length. Fixed amount of space is used.
 Note that CHAR is 50% quicker than VARCHAR but VARCHAR is more\
 memory efficient
 
-#SQL Constraints#
+##SQL Constraints
 
 Constraints are used to specify rules for the data in a table,
 they can limit the type of data that goes into a table and will
@@ -92,9 +92,6 @@ A foreign key with **DELETE CASCADE** means that if a record in the parent class
 is deleted, the corresponding records in the child table would
 also be automatically deleted.
 
-
-
-![DelCas](../../../Images/Delete%20Cascade%20code%20example.jpg)
 
 ```SQL
 ALTER TABLE director
