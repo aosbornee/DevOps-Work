@@ -24,18 +24,19 @@ ___
 2. [**Python Airport Project**](https://github.com/aosbornee17/Sparta_Airport_Project)
 3. [**Flask Web Application**](https://github.com/aosborne17/Flask-App)
 4. [**Creating A DEV Environment on A linux VM and Deploying A Flask app onto a web server**](https://github.com/aosborne17/Flask-With-Vagrant)
+5. [**React js Application**](https://github.com/aosborne17/React-App)
 
 
 
 ___
 ## **Check List** :calender:
 
-- [x] **Week 1** - Business Week [:briefcase:](https://github.com/aosborne17/DevOps_Training/tree/master/Week%201%20Business%20Week)
-- [x] **Week 2** - SQL [:bar_chart:](https://github.com/aosborne17/DevOps_Training/tree/master/Week%202%20SQL%20Week)
-- [x] **Week 3** - Python Basics [:snake:](https://github.com/aosborne17/DevOps_Training/tree/master/Week%203%20Python%20Week)
-- [x] **Week 4** - Python Applied [:robot:](https://github.com/aosborne17/DevOps_Training/tree/master/Week%204%20Python%20Applied%20Week)
-- [x] **Week 5** - Python Project Week [:books:](https://github.com/aosbornee17/Sparta_Airport_Project)
-- [x] **Week 6** - Model-View-Controller Using Flask [:mag_right:](https://github.com/aosborne17/mvc_flask)
-- [x] **Week 7** - Vagrant and Virtual Machines [:computer:](https://github.com/aosborne17/Vagrant-Introduction)
-- [x] **Week 8** - CI/CD Pipelines And Cloud Computing [:cloud:]()
+- [x] **Week 1** - Business Week [:briefcase:](Notes/Week1-Business)
+- [x] **Week 2** - SQL [:bar_chart:](Notes/Week2-SQL)
+- [x] **Week 3** - Python Basics [:snake:](Notes/Week3-Python)
+- [x] **Week 4** - Python Applied [:robot:](Notes/Week4-Python-Applied)
+- [x] **Week 5** - Python Project Week [:books:](/Notes/Week5-Python-Project)
+- [x] **Week 6** - Model-View-Controller Using Flask [:mag_right:](/Notes/Week6-MVC-With-Flask)
+- [x] **Week 7** - Vagrant and Virtual Machines [:computer:](/Notes/Week7-Virtual-Machines)
+- [x] **Week 8** - CI/CD Pipelines And Cloud Computing [:cloud:](/Notes/Week8-CICD-Pipelines-And-Cloud-Computing)
 - [x]  **Week 9** - Networking [:goal_net:](/Notes/Week9-Networking)
