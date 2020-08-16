@@ -1,6 +1,6 @@
 ## Sparta Global Training
 ##### `Name:` Andrew Osborne :office:
-##### `Position:` Trainee Devops Engineer :computer:
+##### `Position:` Trainee DevOps Engineer :computer:
 ##### `Languages:` Python, SQL, HTML and CSS
 #### `Technology Tools` Virtual Machines, Vagrant, Flask, Node JS,
 ##### `E-mail :` AOsborne@spartaglobal.com :email:
@@ -29,13 +29,13 @@ ___
 
 
 ___
-## **Check List** :calender:
+## **Check List** :calendar:
 
 - [x] **Week 1** - Business Week [:briefcase:](Notes/Week1-Business)
 - [x] **Week 2** - SQL [:bar_chart:](Notes/Week2-SQL)
 - [x] **Week 3** - Python Basics [:snake:](Notes/Week3-Python)
 - [x] **Week 4** - Python Applied [:robot:](Notes/Week4-Python-Applied)
-- [x] **Week 5** - Python Project Week [:books:](/Notes/Week5-Python-Project)
+- [x] **Week 5** - Python Project Week [:books:](https://github.com/aosbornee17/Sparta_Airport_Project)
 - [x] **Week 6** - Model-View-Controller Using Flask [:mag_right:](/Notes/Week6-MVC-With-Flask)
 - [x] **Week 7** - Vagrant and Virtual Machines [:computer:](/Notes/Week7-Virtual-Machines)
 - [x] **Week 8** - CI/CD Pipelines And Cloud Computing [:cloud:](/Notes/Week8-CICD-Pipelines-And-Cloud-Computing)

@@ -1,16 +1,14 @@
 # Python Applied :
 
-### Topics Covered In This Course:
+#### For Python Basics [Click Here](/Notes/Week3-Python)
 
-#### For part I  [Click Here](/docs/Week3_Python%20)
-
-#### Part II
+#### Contents
 - [x] [HTTP Requests and Python APIs](APIs)
-- [x] [JSON API with Python](JSON_API)
-    - [x] [CRUD](crud.md)
+- [x] [JSON API with Python](JSON)
+- [x] [CRUD](crud.md)
 - [x] [Python Decorators](python_decorators.md)
-- [x] [Test Driven Development (TDD)](Test_Driven_Development)
-- [x] [Error Handling](Error_Handling)
-- [x] [File Handling](File_Handling)
+- [x] [Test Driven Development (TDD)](Test-Driven-Development)
+- [x] [Error Handling](Error-Handling)
+- [x] [File Handling](File-Handling)
 - [x] [Using databases with Python](Databases)
-    - [x] [Using Pandas library, joining data using DataFrames](Databases/pandas_library.py)
+- [x] [Using Pandas library, joining data using DataFrames](Databases/pandas_library.py)
