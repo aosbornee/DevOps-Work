@@ -1,12 +1,16 @@
-# TDD
+# Python Applied :
 
+### Topics Covered In This Course:
 
-Stands for Text Driven Development
-a software development process that relies on the repetition 
-of a very short development cycle. The equirements are turned into 
-very specific test cases, then the code is improved so that the tests pass.
+#### For part I  [Click Here](/docs/Week3_Python%20)
 
-Working with files - excel - CSV - txt
-SQL with python, db connectivity and querying, storing and fetching data
-
-Friday one to one will also be our elevator pitch
+#### Part II
+- [x] [HTTP Requests and Python APIs](APIs)
+- [x] [JSON API with Python](JSON_API)
+    - [x] [CRUD](crud.md)
+- [x] [Python Decorators](python_decorators.md)
+- [x] [Test Driven Development (TDD)](Test_Driven_Development)
+- [x] [Error Handling](Error_Handling)
+- [x] [File Handling](File_Handling)
+- [x] [Using databases with Python](Databases)
+    - [x] [Using Pandas library, joining data using DataFrames](Databases/pandas_library.py)

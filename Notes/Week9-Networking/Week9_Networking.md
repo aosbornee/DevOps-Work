@@ -67,7 +67,7 @@ instance in your account
 ### Relation Between VPCs And Networks
 
 - We create subnets within our VPC, they give different access rules and place resources in different containers
-- E.g You would not want your database with contains secret information to be put in a public subnet where there is
+- E.g You would not want your database which contains secret information to be put in a public subnet where there is
 network traffic. Instead we would want to place it in a private subnet
 - Creating subnets allows you to create a logical network division between the different resources you have
 
@@ -102,7 +102,8 @@ an AWS region
 
 - AZ's are logically connected but physically segregated
 
-- They give customers the ability to operate applications and database that woid
+- They give customers the ability to operate applications and database that would
+otherwise not be possible
 
 
 

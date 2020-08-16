@@ -1,6 +1,6 @@
 #Week 2.2 SQL
 
-Note; mock test on Friday morning 
+Note; mock test on Friday morning
 
 **DML - Data Manipulation Language**
 
@@ -26,7 +26,7 @@ ALTER TABLE Customers
 DROP COLUMN Email;
 ```
 
-Here we are adding a new table named Email and assigning\
+Here we are adding a new column named Email and assigning\
 the datatype of VARCHAR, we then delete it\
 > This is where you alter the structure of the data
 
@@ -142,4 +142,3 @@ this is when we have the same info in our database two times or more.\
 
 
 > **Week 2 Day 2 (23-06-2020) SQL Exercise ** [HERE](../First%20_SQL_Query.sql)
-
