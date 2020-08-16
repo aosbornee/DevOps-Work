@@ -38,4 +38,4 @@ ___
 - [x] **Week 6** - Model-View-Controller Using Flask [:mag_right:](https://github.com/aosborne17/mvc_flask)
 - [x] **Week 7** - Vagrant and Virtual Machines [:computer:](https://github.com/aosborne17/Vagrant-Introduction)
 - [x] **Week 8** - CI/CD Pipelines And Cloud Computing [:cloud:]()
-- []  **Week 9** - Networking [:goal_net:](/notes/Week9-Networking)
+- [x]  **Week 9** - Networking [:goal_net:](/Notes/Week9-Networking)

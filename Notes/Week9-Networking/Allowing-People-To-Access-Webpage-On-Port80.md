@@ -3,7 +3,7 @@
  - In order to do this we would need to go to the security groups of our App instance and allow access from the whole internet '0.0.0.0/0' for anything on port 80
 
 
-![](/imagesAdding-Port80-To-Everyone.png)
+![](/images/Adding-Port80-To-Everyone.png)
 
 - Now anyone should be able to enter through port 80
 
