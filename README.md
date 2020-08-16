@@ -7,15 +7,15 @@ ___
 
 ### **Technical Skills**
 
+#### Frontend
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat&logo=bootstrap&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript&logoColor=eed718)
 ![Flask](https://img.shields.io/badge/-Flask-0d7963?style=flat&logo=flask&logoColor=white)
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=yellow)
-![MYSQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=MySQL&logoColor=white)
-![MSSQL](https://img.shields.io/badge/-MicrosoftSQLServer-CC2927?style=flat&logo=Microsoft%20SQL%20Server&logoColor=white)
+
+#### DevOps And Cloud Computing
 ![Vagrant](https://img.shields.io/badge/-Vagrant-1563FF?style=flat&logo=Vagrant&logoColor=white)
 ![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat&logo=Ruby&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=Git&logoColor=white)
@@ -24,6 +24,11 @@ ___
 ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/-Amazon%20AWS-232F3E?style=flat&logo=Amazon%20AWS&logoColor=white)
 
+#### Databases
+![MYSQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=MySQL&logoColor=white)
+![MSSQL](https://img.shields.io/badge/-MicrosoftSQLServer-CC2927?style=flat&logo=Microsoft%20SQL%20Server&logoColor=white)
+
+#### Client Software
 ![Microsoft Word](https://img.shields.io/badge/-Microsoft%20Word-164ead?style=flat&logo=microsoft%20word)
 ![Microsoft Excel](https://img.shields.io/badge/-Microsoft%20Excel-026f39?style=flat&logo=microsoft%20excel)
 ![Microsoft powerpoint](https://img.shields.io/badge/-Microsoft%20PowerPoint-b9361a?style=flat&logo=microsoft%20powerpoint)
