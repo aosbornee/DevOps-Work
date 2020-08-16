@@ -2,7 +2,18 @@
 
 ## What is cloud computing
 
+- Cloud computing is the delivery of computing services over the internet to offer
+faster innovation
+
+
 ## What are the three models of Cloud computing
+
+### SaaS
+
+### PaaS
+
+### IaaS
+
 
 ## How does IaaS differ to IaC
 

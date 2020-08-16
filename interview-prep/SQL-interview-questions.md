@@ -2,16 +2,19 @@
 
 ## What is SQL?
 
-**SQL** stands for Structured Query Language
+- SQL is an abbreviation of structured query language, which allows for the creation and manipulation of databases.
+- In my time using SQL I have done both of these things to varying degrees of complexities with the most challenging queries I have written
+being analysis of data across multiple relational databases where an example of question I had to answer being: the
+average time taken for orders to be shipped per company.
+- This kind of query requires multiple joins and group by functions, as well as extracting dates and performing functions on these dates such as calculating the difference between
+two dates, this data was then visualized both through excel as well as numpy and pandas which are python modules
 
-- It is used for managing and retrieving data in a relational database
-- Data is
+
 
 
 ## What is a constraint in SQL
 
--  These are specified rules for the data in our table, limiting the data than can
-go into our table
+-  These are specified rules for the data in our table, limiting the data than can go into our table
 - They can be column level or table level
 
 
@@ -38,6 +41,10 @@ table
 ## What is a Many-To-Many relationship in SQL
 
 ## What is a join in SQL
+
+- A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+
 
 ### What are the four DDL commands in SQL
 - CREATE

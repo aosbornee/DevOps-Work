@@ -72,11 +72,24 @@ if there are any problems, bug fixes are released almost instantly
 
 #### Ease Of use
 
+- Tools such as Ansible make provisioning files very easy and abstract the complexity
+of tasks
+
+-
+
 #### Flexibility
+
+- Based on client feedback we should be able to make changes to our software
+
 
 #### Cost effective
 
-####
+- Due to automation, less manual power has to be spent provisioning things that would usually
+take a long time
+
+#### Robustness
+
+- if something fails we can get it up and running quickly
 
 
 ## What is Continuous integration
@@ -92,6 +105,23 @@ as well as testing it
 which would allow us to trigger jenkin builds whenever we push our code to a certain
 branch (This is done using webhooks)
 
+
+## What is Ansible
+
+- An automation engine that automates cloud provisioning and configuration
+management
+
+- It frees up the time of manually configuring complicated tasks, instead freeing
+up time for other tasks
+
+- Very simple to use, we can provision multiple virtual machines using a single
+playbook
+
+
+
+## What is the difference between using docker or using a VM
+
+-
 
 ## What is the difference between a webhook and an API
 

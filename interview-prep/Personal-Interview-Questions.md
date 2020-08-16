@@ -1,6 +1,6 @@
 
 
-## Elevator Pitch
+## TMAY
 
 
 
@@ -10,6 +10,13 @@
 - Resolving issues
 - My analytical abilities
 -
+
+#### Soft and Hard Skills learnt at sparta
+
+- communication/ presentation skills are important for getting your point across to a PM, or client with less technological background
+
+- Being able to actively listen to what the client wants, to produce the best possible product, thus increasing customer satisfaction
+
 
 #### Talk more about hobbies
 - Played Rugby for multiple years, went to national level, played in SA

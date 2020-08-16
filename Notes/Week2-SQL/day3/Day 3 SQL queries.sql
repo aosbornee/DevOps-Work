@@ -12,7 +12,7 @@ SELECT * FROM customers WHERE City ='Paris'
 
 SELECT * FROM Employees WHERE City = 'London'
 
-/*Counting all the rows where the employee lives in london, 
+/*Counting all the rows where the employee lives in london,
   we give this new name a title named 'Number of Employees in London*/
 
 SELECT COUNT(EmployeeID) AS 'Nunber of Employees in London' FROM Employees
@@ -67,7 +67,7 @@ WHERE UnitsInStock >0 AND UnitPrice >29.99
 /*SELECT DISTINCT means that we only return unique values, no duplicate values will be shown
   thus if Mexico comes up twice, only the first column will be retuned*/
 
-SELECT DISCTINT Country 
+SELECT DISCTINT Country
 FROM Customers
 
 
@@ -83,7 +83,7 @@ FROM Customers WHERE Country LIKE 'M%'
 /*
 We want to return the countries ending with the letters I then A
 */
-SELECT Country 
+SELECT Country
 FROM Customers WHERE Country LIKE '%IA' --So Austria would be returned
 
 /*Returning countries that start with a C and end with a A*/
@@ -110,7 +110,7 @@ WHERE Country LIKE '%[UAM]'
 /*Select all the countries that start with either U, A or M and
   return them in descending order (from Z to A) */
 SELECT DISTINCT Country
-FROM Customers WHERE Country LIKE '%[UAM]'
+FROM Customers WHERE Country LIKE '[UAM]%'
 ORDER BY Country DESC
 
 /*The same as the code above instead we are ordering the code in
@@ -120,7 +120,7 @@ FROM Customers WHERE Country LIKE '%[UAM]'
 ORDER BY Country
 
 
-/*^=Caret, In wildcards this means bring back every country 
+/*^=Caret, In wildcards this means bring back every country
 that doesn't start with U, A or M*/
 
 SELECT DISTINCT Country
@@ -144,7 +144,7 @@ WHERE ProductName LIKE 'Ch%'
   and ends with the letter A*/
 
 SELECT *
-FROM Customers 
+FROM Customers
 WHERE Region LIKE '_A'
 
 
@@ -198,7 +198,7 @@ FROM Employees
 
 /*Selecting all the countries that have a region code*/
 SELECT DISTINCT Country, region
-FROM Customers 
+FROM Customers
 WHERE Region IS NOT NULL;
 
 SELECT * FROM Customers
@@ -246,7 +246,3 @@ WHERE Country='UK'
 WA1 BNGH
 
 CHARINDEX(' ', PostalCode) AS "Space Found", Country
-
-
-
-

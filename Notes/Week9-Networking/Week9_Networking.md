@@ -42,6 +42,12 @@ Two very common types of networks include:
 ## N-Tier Architecture
 
 
+## Elastic IP Address
+
+-  A static IPv4 address designed for dynamic cloud computing, with this you can
+mask the failure of an instance by rapidly remapping the address to another
+instance in your account
+
 
 
 ## Virtual Private Cloud
