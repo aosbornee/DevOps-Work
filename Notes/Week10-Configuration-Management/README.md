@@ -7,8 +7,8 @@
 - [x] [Why Ansible?](Ansible-Introduction.md)
 - [x] [What is Configuration Management?](#what-is-configuration-management)
 - [x] [Using Ansible With Vagrant](Ansible-With-Vagrant.md)
-
-
+- [x] [Ansible ad-hoc Commands](Ansible-Ad-hoc-Commands.md)
+- [x] [Ansible Playbooks](Ansible-Playbooks.md)
 
 ![](/images/Ansible-Controller.png)
 
