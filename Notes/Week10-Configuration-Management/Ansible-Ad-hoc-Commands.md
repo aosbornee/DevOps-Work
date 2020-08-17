@@ -73,7 +73,12 @@ ansible all -a "sudo dmidecode -t system"
 ```
 - This command is used to print information about the system
 
+##### IP Addresses
 
+```bash
+ansible all -m shell -a "hostname -I"
+```
+- This returns the public and private IP of all our VMs
 
 #### Exercise
 ```
