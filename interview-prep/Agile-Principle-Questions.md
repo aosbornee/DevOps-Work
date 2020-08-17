@@ -9,9 +9,31 @@
 - The aim of agile is to create products that fit the customers demand, this is usually executed through the creation of user stories
 
 
+## What are burn-down charts
+
+- There are four types of burn-down charts
+
+-
+
+## What are information radiators
+
+## What are the three amigos
+
+## What are The four values of the agile manifesto
+
+- Individuals and interactions over processes and tools
+
+- Working software over comprehensive documentation
+
+- Customer Collaboration over contract negotiation
+
+- Responding to change over following a plan
+
+
 ## What is Scrum
 
-- Scrum is a framework that allows for the implementation of Agile, it allows for incremental builds to be delivered to the customer every so often throough the implementation of sprints
+- Scrum is a framework that allows for the implementation of Agile, it allows for incremental builds to be delivered to the customer every so often through the implementation of sprints.
+- Having worked in both Agile and Scrum environments, I like using Scum within the Agile framework to work closely with teams to achieve release goals.
 
 
 ## What are the scrum artefacts
@@ -26,7 +48,7 @@
 
 #### Product increment
 
-- These are all the completed steps that have been done 
+- These are all the completed steps that have been done
 
 ## What are the scrum events
 

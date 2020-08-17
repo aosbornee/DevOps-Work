@@ -3,7 +3,16 @@
 
 ## What is Python
 
-- Python 
+- Python is often described as a jack of all trades language as its potential applications can be seen far and wide in almost
+all aspects of the tech sector, from machine learning, to Instagram to even being the backbone of many DevOps tools such as
+Ansible
+
+- In my most challenging but rewarding project I was able to create a user interface using the core concepts of OOP
+as well as additional libraries such as Pandas and Numpy to create a Airport project in which the data was successfully stored
+in a SQL database
+
+- Additionally I have created A web application with user authentication which is stored in a database using the microframework flask,
+this application was then deployed onto a virtual machine which was configured with the correct DEV environment to effectively run the application
 
 ## What is OOP
 
