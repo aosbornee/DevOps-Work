@@ -72,4 +72,4 @@ ___
 - [x] **Week 7** - Vagrant and Virtual Machines [:computer:](/Notes/Week7-Virtual-Machines)
 - [x] **Week 8** - CI/CD Pipelines And Cloud Computing [:cloud:](/Notes/Week8-CICD-Pipelines-And-Cloud-Computing)
 - [x] **Week 9** - Networking [:goal_net:](/Notes/Week9-Networking)
-- [O] **Week 10** - Configuration Management [:video_game:](/Notes/Week10-Configuration-Management)
+- [x] **Week 10** - Configuration Management [:video_game:](/Notes/Week10-Configuration-Management)
