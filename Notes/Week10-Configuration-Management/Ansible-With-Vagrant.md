@@ -6,7 +6,7 @@ Defining a Communication between the servers
 We have created three Virtual Machines from our Vagrant File
 
 
-###mWe will make our VM named aws our controller, in this controller we will:
+### We will make our VM named aws our controller, in this controller we will:
 
 - Install Ansible
 - Look at the file system of ansible
