@@ -7,3 +7,5 @@
 
 ## AMI's are blueprints, when we click on one on AWS it will create the EC2 instance
 ##for us using the AMI image
+
+## 
