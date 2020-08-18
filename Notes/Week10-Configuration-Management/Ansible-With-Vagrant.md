@@ -72,7 +72,10 @@ And paste the following code:
 #[aws]
 #192.168.33.12 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant
 ```
-- We have created a
+- We have created a connection between our controller and our other two VMs,
+as you can see in the above file we have assigned them both to a Ip and how we
+can connect to them
+
 - We have commented out of the controller because we do not need to SSH into it
 
 #### Entering App and DB

@@ -20,4 +20,21 @@
 - If you googled what is DevOps you will probably be met with the answer that DevOps is a culture that
 bridges the gap between the Devs And the Ops, while this is true; DevOps does much more than this
 
-- DevOps 
+- DevOps
+
+
+### What are the benefits of using Ansible rather than manually provisioning Bash Scripts
+
+If experienced this when we did project...
+
+Had to run commands individually
+
+- however using playbook, in m controller vm i run playbook and it changes all of the
+other VMs
+
+- The result of this was instantaneously configrations of my other virtual machines,
+thus decreasing time taken and thus incrasing potential for scability as you can manage more VMs
+at a time
+
+- This leads to reduction in time, thus we can more rapidly test code changes, reduce human error
+and get code infront of our clients and customers quicker and more effectively, thus increasing customer satisfaction through continuous question

@@ -174,7 +174,12 @@ to automate the process
 
 ```
 
-- We will then run our YAML file
+- Before running our YAML file we can check the syntax of our YAML file using this command:
+```bash
+ansible-playbook install-app-dependencies.yml --check
+```
+
+- We will then run our YAML file:
 ```bash
 ansible-playbook install-app-dependencies.yml
 ```

@@ -17,6 +17,40 @@
 
 ## What are information radiators
 
+- This is a generic term for pieces of information that is highly visbly displayed
+in the workplace
+
+- This conveys the message that the team have nothing to hide from stakeholders or investors,
+in addition to this, the team also has nothing to hide from themselves
+
+
+## What is the starfish Retrospective
+
+- The goal of this is to look at current practices being carried out and deciding
+which need more energy and which need less directed to them
+
+- Often when coming across an issue, we give a temporary solution, the issue here
+is that the same problem will constantly resurface throughout the project
+
+- Using route cause analysis allows us to keep questioning why each issue is occurring
+
+- If the user didn't get notifications this was because there was a bug in first release, why?
+this is because we didn't test it, why? this is because we didn't test all features as it was impractical.
+
+- To combat this ROOT issue, we could use practical tools and automation testing
+#### These can be divided into:
+
+- Things to keep doing
+- Things to do less
+- Things to completely stop doing
+- Lastly things to start doing
+
+## What is Root Cause Analysis
+
+- This methodology is used for analysing problems in order to identify why the
+problems have occurred
+
+
 ## What are the three amigos
 
 ## What are The four values of the agile manifesto
