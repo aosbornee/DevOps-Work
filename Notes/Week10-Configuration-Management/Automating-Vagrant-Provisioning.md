@@ -4,6 +4,8 @@
 
 - In our OS we will create a setup file that would provision our vagrant files for us
 
+- Note that the code is explained throughout using comments
+
 ```bash
 #!/bin/bash
 
@@ -17,7 +19,7 @@ sudo apt-get install tree -y
 sudo apt-add-repository--yes--update ppa:ansible/ansible;
 sudo apt-get install ansible -y
 
-
+sudo su
 cd /etc/ansible
 echo "[web]
 192.168.33.10 ansible_connection=ssh ansible_ssh_user=vagrant ansible_ssh_pass=vagrant" >> hosts
@@ -65,42 +67,26 @@ exit
 
 EOF
 ```
-As a result of this setup file, it will go into all of our VMs and make sure the dependencies are all installed
-before then
 
 
-- Once we are within aws controller we will try to run our playbook, however we will be prompt with a message telling us
-the following
+### App and Posts running correctly
 
-```
-fatal: [192.168.33.11]: FAILED! => {"msg": "to use the 'ssh' connection type with passwords, you must install the sshpass program"
-```
 
-- As a result we must then install the following code to revert this issue:
+- Providing our virtual machines have been provisioned correctly, when we visit
+the webpage of our private IP we would hope to see things running:
 
-```bash
-sudo apt-get install sshpass
-```
+![](/images/Ansible-App-URL.png)
 
-- After this we may then come across another error saying the following
 
-```
+### App URL
 
-```
-- To deal with this me must export an environment variable so that we are not asked for the fingerprint check and this should all work...
+![](/images/Ansible-Automated-App-Running.png)
 
-```bash
-export ANSIBLE_HOST_KEY_CHECKING=False
-```
+### Fibonacci URL
 
-As i had previously forgotten to copy my app into my web server I will now run
-the following command, i'll run
+![](/images/Ansible-Automated-App-Fibonacci-Running.png)
 
-```
-ansible web -m copy -a "src=/home/vagrant/app dest=/home/vagrant"
-```
 
-We can then run our playbook
-```
-ansible-playbook install-all-dependencies.yml
-```
+### Posts URL
+
+![](/images/Ansible-Automated-App-Posts-Running.png)
