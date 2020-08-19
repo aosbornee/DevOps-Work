@@ -47,9 +47,9 @@ ___
 ___
 
 ## **Academy Notes**
-1. **Business Notes** [HERE](/Week%201%20Business%20Week)
-2. **SQL Notes** [HERE](Week%202%20SQL%20Week)
-3. **Python Notes** [HERE](Week%203%20Python%20Week)
+1. **Business Notes** [HERE](/Notes/Week1-Business)
+2. **SQL Notes** [HERE](/Notes/Week2-SQL)
+3. **Python Notes** [HERE](/Notes/Week3-Python)
 
 ## **Projects**
 1. [**SQL Project**](https://github.com/aosborne17/DevOps-Training/tree/master/Week%202%20SQL%20Week/SQL%20Project)

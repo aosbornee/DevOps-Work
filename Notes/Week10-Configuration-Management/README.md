@@ -9,6 +9,7 @@
 - [x] [Using Ansible With Vagrant](Ansible-With-Vagrant.md)
 - [x] [Ansible ad-hoc Commands](Ansible-Ad-hoc-Commands.md)
 - [x] [Ansible Playbooks](Ansible-Playbooks.md)
+- [x] [Using an AMI to create an EC2 in Ansible](Using-an-AMI-to-create-an-EC2-in-Ansible.md)
 
 ![](/images/Ansible-Controller.png)
 
