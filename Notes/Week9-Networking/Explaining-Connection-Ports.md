@@ -1,6 +1,26 @@
 # Different Networking Connection Ports
 
 
+
+
+## Understanding CIDR blocks
+
+/32 means that we are only allowing a specific IP to enter, this means every
+single number will be checked
+
+
+When creating a VPC we create /16, this means that any IP that matches the first
+two octets belongs to that VPC
+
+In our subnets e.g. we use /24
+
+Subnets belong to VPC, subnet that belong to a VPC would match the first two octets of the VPC
+and the third block would be a unique identifier for the subnet
+
+Why do we use the /24 after the subnet Ip
+
+- The /24 is saying that only the first three octets are relevant
+
 ## Ephemeral Ports
 
 

@@ -1,4 +1,4 @@
-# Configuration Management :memo: :video_game:
+# Configuration Management And Orchestration Tools :memo: :video_game:
 
 
 ### Contents
@@ -10,11 +10,11 @@
 - [x] [Ansible ad-hoc Commands](Ansible-Ad-hoc-Commands.md)
 - [x] [Ansible Playbooks](Ansible-Playbooks.md)
 - [x] [Using an AMI to create an EC2 in Ansible](Using-an-AMI-to-create-an-EC2-in-Ansible.md)
-- [x] [What is Route 53](#Route-53)
-- [x] [What is Load Balancing](#Load-Balancing)
+- [x] [Route 53](#Route-53)
+- [x] [Load Balancing](#Load-Balancing)
 - [x] [Immutable vs Mutable Infrastructure](#Immutable-vs-Mutable-Infrastructure)
 - [x] [Highly available and scalable infrastructure](#Highly-available-and-scalable-infrastructure)
-
+- [x] [Terraform](#Terraform-Introduction.md)
 
 ![](/images/Ansible-Controller.png)
 
@@ -69,6 +69,9 @@ have to click a button to run the script
 working EC2 instance without the user performance being deprecated
 
 ## Load Balancing
+
+- To load balance effectively we would create replica sets, if our main DB server
+goes down then the load is balanced between our DB replica instances
 
 - Distribute client requests or network load efficiently across many servers
 - There could be certain features put in place that if one server reaches up to 70% load
