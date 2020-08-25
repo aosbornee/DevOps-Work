@@ -27,7 +27,7 @@ this application was then deployed onto a virtual machine which was configured w
 
 #### Encapsulation
 
-
+- It describes the idea of wrapping data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly and can prevent the accidental modification of data.
 
 #### Abstraction
 
@@ -57,8 +57,12 @@ super method
 
 #### Polymorphism
 
-- Poly means many and morph means change
+- Poly means many and morph means forms
 
 - Polymorphism works by Method overwritting and method overloading
 
--
+
+
+#### Difference between unit testing and integrational testing
+
+- 

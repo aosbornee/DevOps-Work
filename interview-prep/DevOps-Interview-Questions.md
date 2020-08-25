@@ -2,34 +2,11 @@
 
 ## What is DevOps
 
-- A set of practices that combines the operations team and the development team, the aim
-is to shorten the software lifecycle and provide Continuous delivery of a software
-that is also of high quality
-
-## How would a company benefit from implementing DevOps into their lifecycle
-
-- Before Devops, the dev team would write all their weeks or months long code
-merging it together, this would often lead to many failures and it was often difficult
-to tell what component was causing it
-
-- By shortening the time that code is integrated and tested, if there happens to
-be a build failure, the team can quickly discover what code was causing it, and
-thus speeding up the production time
-
-- In addition to this when it came to giving the code to the Ops team, they would
-often complain that the code doesn't work and the dev team would say it worked when
-they ran it, thus this causes issues between the Two
-
-- DevOps culture is about small teams working together under a shared responsibility
-and team ethos
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity,
+evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
+This speed enables organizations to better serve their customers and compete more effectively in the market.
 
 
-## What does it take to make a good DevOps Engineer
-
-- Good attention to detail
-- Strong communication to be able to effectively collaborate with the different teams
-- Go the extra mile/be determined ~ As a DevOps Engineer you can't shortcut anything,
-you must work to complete the product
 
 ## DevOps benefits
 
@@ -39,11 +16,23 @@ and in addition to this deployment time is also much faster
 - Continuous Delivery to the customers can also allow greater feedback and thus changes
 can be made more efficiently, increasing customer satisfaction
 
-- RISK MITIGATION!!! ---> This is a big one for companies as they do not like risk
-Continuous monitoring of code means that any problems can be quickly sorted out
-before the issue becomes worse
-In addition, using microservices architecture as opposed to Monolithic means that
-we can move traffic to other servers if we have issues with some
+- RISK MITIGATION!!! ---> This is a big one for companies as they do not like risk.
+Continuous monitoring of servers means that any problems can be quickly rectified
+thanks to tools such as AWS cloud watch, route 53 and nagios that are implemented in DevOps culture
+
+- In addition, using microservices architecture as opposed to Monolithic means that
+problems can be sort out and fixed much faster and scaling the software to meet traffic demand is much
+easier
+
+
+## What does it take to make a good DevOps Engineer
+
+- Good attention to detail
+- Strong communication to be able to effectively collaborate with the different teams
+- Go the extra mile/be determined ~ As a DevOps Engineer you can't shortcut anything,
+you must work to complete the product
+
+
 
 ## Challenges of implementing DevOps
 
@@ -94,7 +83,35 @@ take a long time
 
 ## What is Continuous integration
 
+- A development practice where developers integrate code into a shared repository frequently.
+It can range from a couple of changes every day or a week to a couple of changes in one hour in larger scales.
+
 ## What is Continuous Delivery
+
+- This the stage where all of the changes and new features are pushed together so that they are in a deployable state,
+ready to be pushed into production whenever necessary
+
+- This is
+
+## What is Continuous deployment
+
+## Explain mutable vs. immutable infrastructure
+
+Mutable means the ability to change
+- In a traditional mutable server infrastructure, servers are continually updated and modified in place. E.g. system admins
+would login in and manually change the configurations of their PC in order to run different servers. This can be unreliable and lead to
+errors
+
+Immutable means not able to change
+
+- An immutable infrastructure is another infrastructure paradigm in which servers are never modified after they’re deployed, if we want to
+make changes to our instances we will destroy them and make new ones with the new configurations
+
+- Immutable infrastructures are more consistent and reliable. Ansible and Terraform are two tools that can be used to implement this.
+When we want to make changes to our application, we will destroy and rerun our terraform script and trigger ansible to provision these new scripts
+using playbooks and thus greatly reducing the chance of errors
+
+
 
 ## What is Jenkins
 

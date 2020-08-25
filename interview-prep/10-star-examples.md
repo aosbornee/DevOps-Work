@@ -4,6 +4,18 @@
 
 ##### Tell me a time when you implemented good Agile Practices
 
+- During my 5th week on the course at Sparta we had to create an aeroplan project
+
+- The team were tasked with creating a full fledged interface with a database which held persistent data
+
+- I took responsibility with creating a trello board and breaking down the epic story into more mangeable user stories,
+these user stories were then broken down into code snippets and tasks so we knew exactly what we had to do. In addition to this
+we made sure that everyone knew what they were working with due to the Trello board, this also ensured people weren't doing the same job
+- We also implemented daily standups and reviews so we knew exactly what stage everyone was at, this meant we may have had to work a little longer
+after to ensure the sprint backlog was completed abd tasks didn't pile up into the next day
+
+- As a result of these actions, it resulted in the project being completed successfully despite the limited time allocated to do such,
+thus impressing our product manager who we presented the product to at weeks end
 
 ##### Tell me an occasion where you showed good communication skills
 
@@ -17,7 +29,7 @@ margins by a large percentage based on the previous year
 - T: We were tasked with increasing our sales over the Christmas period by 20% on the
 previous fall during the two week Christmas period
 
-- A took on the initiative to be active and implement some strategies in the store to make this possible,
+- A: I took on the initiative to be active and implement some strategies in the store to make this possible,
 these included suggesting different sales ideas to entice customers as well as changing the store layout
 to make higher valued jewellery stand out. This was also coupled with the leading by example being more proactive when
 talking to customers

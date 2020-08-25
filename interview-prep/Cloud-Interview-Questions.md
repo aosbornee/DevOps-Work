@@ -10,17 +10,22 @@ faster innovation
 
 ### SaaS
 
+-
+
 ### PaaS
+
+-
 
 ### IaaS
 
+-
 
 ## How does IaaS differ to IaC
 
 
 ## What is Amazon Web services
 
--
+- A cloud platform which provides cloud compute services 
 
 ## What is an AMI
 

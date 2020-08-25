@@ -1,4 +1,4 @@
-# DevOps Training
+## DevOps Training
 
 ##### `Name:` Andrew Osborne :office:
 ##### `Position:` Junior DevOps Consultant :computer:

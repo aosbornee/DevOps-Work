@@ -3,8 +3,10 @@
 
 ### Contents
 
-- [x] [Ansible](Ansible-Introduction.md)
-- [x] [Why Ansible?](Ansible-Introduction.md)
+- [x] [Ansible](#What-is-Ansible)
+- [x] [Why Ansible?](#Why-Ansible)
+- [x] [Infrastructure As Code](#Infrastructure-As-Code)
+- [X] [Hybrid Cloud](#Hybrid-Cloud)
 - [x] [What is Configuration Management?](#what-is-configuration-management)
 - [x] [Using Ansible With Vagrant](Ansible-With-Vagrant.md)
 - [x] [Ansible ad-hoc Commands](Ansible-Ad-hoc-Commands.md)
@@ -15,16 +17,76 @@
 - [x] [Immutable vs Mutable Infrastructure](#Immutable-vs-Mutable-Infrastructure)
 - [x] [Highly available and scalable infrastructure](#Highly-available-and-scalable-infrastructure)
 - [x] [Terraform](#Terraform-Introduction.md)
+- [x] [Orchestrating the creation of a VPC with Terraform](Terraform-With-VPC.md)
+cloudwatch
+monitoring tools
+load balancers
+nagios
+
+
+
+
+### What is Ansible
+
+- Ansible is an open source, configuration management tool used to provision IT infrastructure
+- Ansible can automate repetitive tasks that would otherwise be done manually
+
+
+### Why Ansible
+
+- Ansible is agentless, as long as we have installed Ansible on the controller then we do not
+need to install it on other servers, thus keeping our servers lightweight and easily manageable
+
+- By running a single Ansible playbook within a controller, it can provision over 50 servers
+at a time, each with their own necessary dependencies and without the need to manually enter these servers
+
+- Ansible improves reliability as it ensures the correct dependencies will be installed every time the playbook
+is run, thus the production environment will always be the same
+
+- Ansible is very simple as it a lot of configuration of different servers can be run through one playbook, in addition
+connections are through SSH which is the industry standard.
+
+- Ansible is very cost effective, the reproducibility of the IaC reduces the chance of any run time errors, resulting in servers
+running efficiently and no money being lost
+
+
 
 ![](/images/Ansible-Controller.png)
 
 
 - We will install ansible on our controller VM, allowing the other VMs to be
-serverless as we do not need to install Ansible on the other two VMs
+serverless
 
 - We can then easily SSH from our controller into either of our VMs when
 necessary
 
+
+### Infrastructure As Code
+
+- This is the process of managing and provisioning servers through source code,
+as opposed to physical hardware configuration
+
+- For IaC, the infrastructure is treated the same way that any other code would be
+
+- IaC can be stored in a shared repository, it allows access for the whole dev team so they
+can build software in the same env where it's deployed
+
+- Instead of system admins login into computers and configuring them from documentation,
+code should be run on the machine to converge it to the desired state
+
+- Iac along with cloud the development of cloud computing means that one Ops engineer can
+start up 100 instances and provision them all through one command
+
+
+### Why use IaC
+
+-
+
+
+
+### Hybrid Cloud
+
+-
 
 
 ### What is Configuration Management
@@ -68,17 +130,30 @@ have to click a button to run the script
 - DNS fail over can monitor the status of the instance and if it fails then traffic can be redirected to another
 working EC2 instance without the user performance being deprecated
 
-## Load Balancing
 
-- To load balance effectively we would create replica sets, if our main DB server
-goes down then the load is balanced between our DB replica instances
+### Route 52 policies in AWS
 
-- Distribute client requests or network load efficiently across many servers
-- There could be certain features put in place that if one server reaches up to 70% load
-then traffic can be slowly redirected elsewhere
-- In addition to this, it provides flexibility to add or subtract servers based on client demand
+Weighted routing policy, we can assign different numerical weights to multiple servers, thus directing a higher or lower percentage of traffic to each server
 
-- The usage of NGINX reverse proxy is an example of how we gave used load balancing
+Latency-based routing policy, this will direct traffic requests to the server that has the lowest possible latency
+
+Failover routing policy, will send traffic to the primary server if it’s healthy. It if’s failing it will be diverted to back up resources
+
+
+## Elastic Load Balancing
+
+- Automatically routes incoming traffic across different existing servers to balance out the traffic
+- This ensures all of our servers are working as evenly as possible
+
+## Auto Scaling
+
+- We can assign AWS to increase or decrease the number of instances depending
+on a certain metric value
+- This allows us to scale our infrastructure based on the demand
+- CloudWatch triggers auto scaling when an alarm is triggered
+- It is best practice to implement both ELB and auto scaling together to reap
+the best benefits
+
 
 ## Immutable vs Mutable Infrastructure
 
@@ -121,5 +196,27 @@ thus also known as a server farm
 - In addition this could be scaled up by having a more availability zones
 
 
-- Replica set
+
+
+## Monitoring Tools
+
+### Amazon CloudWatch
+
+- This is a component of AWS that provides real time monitoring for AWS resources such as EC2s, EBSs and Elastic load balancers etc
+
+
+#### There are many monitoring logs that cloud watch provides
+
+- Cloudwatch allows you to set alarms when our metrics reach a certain level and either notify us or carry out automated actions
+
+- E.g. We can tell CloudWatch that if one of our EC2 instances CPU reaches over 70% then spin up another server
+
+- You can also add alarms to CloudWatch dashboards and monitor them visually
+
 -
+
+### Nagios
+
+- Nagios is used in continuous monitoring which is a process to detect any bugs or respond to errors in it's infrastructure
+
+- Nagios runs plugins on a server which can monitor the status of remote servers and alert the technical team if a error arises
