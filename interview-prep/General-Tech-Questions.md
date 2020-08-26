@@ -3,7 +3,7 @@
 ## Why have you chosen to do Devops
 
 - I am incredibly passionate about technology and this would have lead me down a role such as software engineering or operating admin
-however I'm all about the bigger picture. I want to be at the front of the bus when it comes to kaing decisions to improve the efficiency of a software and bring
+however I'm all about the bigger picture. I want to be at the forefront when it comes to making decisions to improve the efficiency of a software and bring
 more value to the customers that benefit from our product and DevOps is a role that allows this.
 
 - In addition DevOps allows me to bring out my interpersonal skills, explaining concepts to BA's and PM's as well as automating those repetitive manual tasks that will cut our errors
