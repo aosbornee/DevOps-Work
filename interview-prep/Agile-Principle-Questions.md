@@ -2,7 +2,7 @@
 
 ## What is Agile
 
-- Agile is a methodology that helps to create Continuous integration of the development and testing of a product by breaking it down into smaller, manageable parts
+- Agile is a methodology that helps to create iterations of the development and testing of a product by breaking it down into smaller, manageable parts
 
 - Agile encourages transparency and constant communication between internal teams, stakeholders and customers
 

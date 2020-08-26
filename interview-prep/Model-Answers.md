@@ -13,7 +13,11 @@ which is what DevOps is all about
 - I have a strong passion for fitness where it helps give structure to my day and allows me to keep physically and mentally fit, in addition to this I run a page where I help people
 reach their fitness goals along with other ventures that make me an active member of my community
 
--
+-  I have shown the ability to communicate effectively, be approachable as well as show compassion in his voluntary work as a mentor for younger children.
+
+## Tell me a few things you did at university
+
+- Andrew recently graduated with a First Class in Biomedical Science, including a module that combined business and biosciences where Andrew developed a business product which aided in sustainability, an ever more pressing issue that is close to his heart. For his final project, he organised a cohort of over 20 students to test the effects of green tea and analyse the data using excel and SPSS, thus showing that Andrew has good grounding in interpreting data and presenting it clearly and logically.
 
 ## Why did you choose Sparta when you decided to make the change to tech
 
@@ -22,10 +26,14 @@ reach their fitness goals along with other ventures that make me an active membe
 - At Sparta, they work with the latest industry standard tools as well as shaping you to become the best possible consultant, I felt this was the best for my personal development
 
 
-- I am a strong advocate for cohesion and diversity, these values are reflected within spartas ethos. The ability to work with such a company will be a motivating factor for myself
+- I am a strong advocate for cohesion and diversity, these values are reflected within Sparta's ethos. The ability to work with such a company will be a motivating factor for myself
 
-- Working with sparta will also give me the opportuinty to make a daily impact in societal issues such as mental health. I have seen that sparta has done work with CALM for the Speak Out Hackathon. In addition I have seen that sparta are heavily involved in CodeForGirls which I believe is a great scheme
+- Working with Sparta will also give me the opportunity to make a daily impact in societal issues such as mental health. I have seen that Sparta has done work with CALM for the Speak Out Hackathon. In addition I have seen that Sparta are heavily involved in CodeForGirls which I believe is a great scheme
 
+
+## Describe a time where you had to work with someone who was difficult to get along with
+
+I was a member of the Childhood mentoring team, helping younger children in my area. Another team member often sought me as a person to confide her complaints to and shared quite a bit of information about activities she’d engaged in that violated the rules of the school. Although I did not mind listening to this person, I knew that I could not compromise my integrity and the integrity of our team. I took her aside and talked to her about the situation and told her that I would have to inform our supervisor. She was extremely angry at this, so I gave her time to cool down. 1-2 hours later, I spoke to her in a calm manner and explained why I would have to inform our supervisor, whilst listening and responding to anything she had to say. It was then that she understood my responsibility and why I had to come forward with information. She knew that what she had done was against the rules, but never realized before I talked to her that she had jeopardized the reputation of herself, but above all, our team.
 
 
 ## A time where you showed leadership skills

@@ -18,12 +18,23 @@ can be made more efficiently, increasing customer satisfaction
 
 - RISK MITIGATION!!! ---> This is a big one for companies as they do not like risk.
 Continuous monitoring of servers means that any problems can be quickly rectified
-thanks to tools such as AWS cloud watch, route 53 and nagios that are implemented in DevOps culture
+thanks to tools such as AWS cloud watch, route 53 and Nagios that are implemented in DevOps culture
 
 - In addition, using microservices architecture as opposed to Monolithic means that
 problems can be sort out and fixed much faster and scaling the software to meet traffic demand is much
 easier
 
+
+## How does Agile differ from DevOps
+
+- Agile is a methodology that brings about constant iterations of a product with complete transparency
+- The customer is part of the dev team, being able to give feedback after every iteration, as opposed to only at the beginning and the end
+in the traditional SDLC
+- DevOps however is a combination of cultural philosophies, practices and tools to increase an organisations ability to deliver a product quickly and efficiently,
+- As opposed to Agile, in DevOps not only are we concerned about the production but also the operations side of the product and monitoring it to make sure it is stable
+- DevOps brings into practice ideologies such as cloud computing and configuration management tools which can help improve how our application runs during development time as well
+as improving the user's experience
+- Agile is all about making changes to the product where necessary however DevOps is involved in end to end management of the product
 
 ## What does it take to make a good DevOps Engineer
 
@@ -32,6 +43,14 @@ easier
 - Go the extra mile/be determined ~ As a DevOps Engineer you can't shortcut anything,
 you must work to complete the product
 
+
+## What were the issues you overcame when attempting to create a microservices of your node Application
+
+- After having successfully connected my containers to eachother I overcame an issue where database
+was not seeding properly
+- I immediately went into debugging mode and added an additional line of code in a script that
+would seed the database for me during runtime
+- This corrected the issues that I was facing and meant the application was able to run successfully
 
 
 ## Challenges of implementing DevOps
@@ -134,6 +153,19 @@ up time for other tasks
 - Very simple to use, we can provision multiple virtual machines using a single
 playbook
 
+
+## What is containerisation
+
+- Put simply, a container consists of an entire runtime environment: an application, plus all its dependencies, libraries and other binaries, and configuration files needed to run it, bundled into one package.
+- By containerizing the application platform and its dependencies, differences in OS distributions and underlying infrastructure are abstracted away.
+
+- By abstracting the whole VM this means that anyone else on any
+computer can run our container, using their own kernel and OS
+
+- This is in contrast to using VMs as the package is the whole VM which includes the whole OS of the VM.
+
+- You package the software and all of it's dependencies into a container which runs off the hosts OS, thus making it very lightweight as it doesn't bring it's own OS
+in addition to this it makes the start up time very quick
 
 
 ## What is the difference between using docker or using a VM
