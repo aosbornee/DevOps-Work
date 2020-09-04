@@ -16,11 +16,28 @@ this application was then deployed onto a virtual machine which was configured w
 
 ## What is OOP
 
-- OOP is the view everything as objects which can be instantiated through the use of classes. One of the main principles of OOP is Encapsulation so that everything an object needs will be inside the object
+
+- programming model that organises things into objects rather than functions and logic
+
+- These objects can have unique characteristics and behaviours which are in the form of methods and attributes
 
 - OOP emphasizes reusability through inheritance and Polymorphism, keeping the changes to code minimal
 
 - This is different to a functional programming language where the primary focus in on returning values from functions
+
+- Classes are the blueprint and from these we create objects, classes have methods and attributes and these are what the objects are and what they can do
+
+- in our project we had a classes of plane which had methods such as flying, refuelling etc.
+- We can then have another class called flights, the objects of these classes can then interact with other classes
+
+
+## When did you implement OOP
+
+- In my airport project with three of my colleagues
+- aim was to create a user interface for airport attendant
+- Was effectively able to use classes and methods to hide the complexities of how the interface worked
+- Used aspects of polymorphism, had a parent class for adults and made a sub class called child, they both had a function called price but both of them returned different values, this is method overwriting
+-
 
 
 ## What are the four pillars of OOP
@@ -31,7 +48,7 @@ this application was then deployed onto a virtual machine which was configured w
 
 #### Abstraction
 
-- focuses on hiding the internal implemtations of a process or method from the user
+- focuses on hiding the internal workings of a process or method from the user
 - This is achieved in python through using abstract classes and interfaces
 
 - An analogy would be where we click on a button to make coffee, we are unaware of the complexities
@@ -44,15 +61,7 @@ where we want to create another class that has many of the same functionalities 
 
 - This allows for DRY code
 
-- We will use the following
 
-```Python
-def __init__ (self, first_name, last_name, age, nationality, bank_sort_code, stream, sparta_rank):
-  super().__init__(first_name, last_name, age, nationality, bank_sort_code)
-```
-
-- This means that we do not need to re initisialise the attributesas we have used the
-super method
 
 
 #### Polymorphism
@@ -63,6 +72,16 @@ super method
 
 
 
-#### Difference between unit testing and integrational testing
+#### What is test driven development (TDD)
 
-- 
+- literally what is says on the tin, the test drives the development
+- with unit testing we build a function then test it, here we do the opposite
+- We only write the code for the test to pass, nothing more
+- This keeps us focused on what we are doing
+
+
+#### Difference between unit testing and integrational testing and functional testing
+
+
+- Integration testing is where we combine the units tested and test them as a whole, to see
+if they work together

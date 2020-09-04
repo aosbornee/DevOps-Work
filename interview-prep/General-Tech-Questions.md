@@ -3,8 +3,7 @@
 ## Why have you chosen to do Devops
 
 - I am incredibly passionate about technology and this would have lead me down a role such as software engineering or operating admin
-however I'm all about the bigger picture. I want to be at the forefront when it comes to making decisions to improve the efficiency of a software and bring
-more value to the customers that benefit from our product and DevOps is a role that allows this.
+however I'm all about the bigger picture. I want to be at the forefront when it comes to making decisions to improve the performance of a software and bring more value to the customers that benefit from our product and DevOps is a role that allows this.
 
 - In addition DevOps allows me to bring out my interpersonal skills, explaining concepts to BA's and PM's as well as automating those repetitive manual tasks that will cut our errors
 by 50% and containerisation our application and layering it that will reduce it's size by 80% are the main reasons why I gravitated to such a role
@@ -14,8 +13,7 @@ by 50% and containerisation our application and layering it that will reduce it'
 - Since I came across DevOps I have built up a large amount of knowledge on the tools I work with, if I come across an issue
 on client site most likely I would be able to refer it to a previous problem that I have had and reverse engineer from there.
 
-- In addition to this, DevOps is all about using technological tools to our advantage and using these to get some form of indication where the problem is coming
-from, for example tools such as CloudWatch or integration tests in Jenkins would help you understand where the issue is stemming from
+- In addition to this, DevOps is all about using technological tools to our advantage and using these to get some form of indication where the problem is coming from, for example tools such as CloudWatch or integration tests in Jenkins would help you understand where the issue is stemming from
 
 - Lastly, being on the DevOps course has taught me that it's about knowing how to fix things and not remembering how to, if you are able to google effectively and have comprehensive
 documentation of your previous projects, it will be much easier to find solutions to the errors you face
@@ -39,7 +37,7 @@ I like to look at things commercially and I am flexible to take on new tasks or 
 
 - Even more so in the current circumstances that we are in, technology has been the backbone which has allowed businesses to keep working as effectively as possible
 
-- Tech gives value to many people around the world who previously haven't had access to such things. This makes me want to work in tech because of the huge value it brings, being able to be on the forefront of new innovations that can help people it was fuels me to wake up and work hard
+- Tech gives value to many people around the world who previously haven't had access to such things. This makes me want to work in tech because of the huge value it brings, being able to be on the forefront of new innovations that can help people is what fuels me to wake up and work hard
 
 ## Where do you see yourself in 5 years time
 

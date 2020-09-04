@@ -2,8 +2,7 @@
 
 ## What is DevOps
 
-DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity,
-evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes.
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at a faster pace than organizations using traditional software development and infrastructure management processes.
 This speed enables organizations to better serve their customers and compete more effectively in the market.
 
 
@@ -110,9 +109,13 @@ It can range from a couple of changes every day or a week to a couple of changes
 - This the stage where all of the changes and new features are pushed together so that they are in a deployable state,
 ready to be pushed into production whenever necessary
 
-- This is
+- From this stage, someone from the team can manually press a button to deploy the code whenever they feel such is necessary
 
 ## What is Continuous deployment
+
+- This is where whenever we our build successful in the CI job, it is automatically pushed into production and in front of the clients
+
+
 
 ## Explain mutable vs. immutable infrastructure
 
@@ -168,9 +171,18 @@ computer can run our container, using their own kernel and OS
 in addition to this it makes the start up time very quick
 
 
-## What is the difference between using docker or using a VM
+## What does an organisation benefit from using containerisation as opposed to a virtual machine
 
--
+- With containers, we package the software and all of it's dependencies into a container which runs directly off of the hosts operating system
+
+- This makes it much more lightweight than VMs as they bring their whole OS in conjunction with the application, thus slowing start up times
+
+- Containers run effectively on anyone's OS as they contain all the dependencies necessary to run the application, we simply mount the container onto the
+user's OS
+
+
+## What is a development environment
+
 
 ## What is the difference between a webhook and an API
 

@@ -74,3 +74,4 @@ ___
 - [x] **Week 9** - Networking [:goal_net:](/Notes/Week9-Networking)
 - [x] **Week 10** - Configuration Management [:video_game:](/Notes/Week10-Configuration-Management-And-Orchestration-Tools)
 - [x] **Week 11** - Containerisation With Docker [:dolphin:](/Notes/Week11-Containerisation-With-Docker)
+- [x] **Week 12** - Final Project [:white_check_mark:](/Notes/Week12-Final-Project)

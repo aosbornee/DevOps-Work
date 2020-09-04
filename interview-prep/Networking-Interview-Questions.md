@@ -12,7 +12,7 @@ AWS we benefit from scalable infrastructure to meet demands
 -
 
 
-## What are the benefits of using microservices as opposed to standard monolithic architecture?
+## What are the benefits of using N-Tier Architecture as opposed to standard monolithic architecture?
 
 
 - N-Tier Architecture (or Multi-tier Architecture) is all about having all of your different functions within a software
@@ -32,3 +32,25 @@ the need to effect other tiers
 
 - Reusability, we can take a tier from one project and implement it onto another project without
 the need to remake the whole tier again, thus saving time
+
+
+## Monolithic
+
+- One app, one database, everything is linear
+- Single point of failure
+
+## Example of an n - tier
+
+- A gov website you can buy a passport, book driving lessons and apply for UC
+- Each of these would have their own database and app servers
+- There is no longer a single point of failure
+- However everything sits in the same code so if we want to update services we will have to take down
+the whole application
+
+
+## Microservices
+
+- splits things vertically, each one of those three services is it's own website that point
+to the same domain
+- Each services has it's own code base, we can make changes easily
+- Each service works independently
